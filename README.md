@@ -1,6 +1,6 @@
 # TraditionalChineseTextView
 自定义竖排中文显示控件<br>
-<示例代码><br>
+<使用示例代码><br>
 ```objc
 @IBOutlet weak var textView: TraditionalChineseTextView!
   
@@ -13,4 +13,4 @@ textView.backgroundColor = UIColor.init(red: 224 / 255.0, green: 171 / 255.0, bl
    
    
 ## Demostration
- <img src="https://github.com/Odasoken/TraditionalChineseTextView/blob/main/TraditionalChineseTextViewDemo/demo.png" width="50%" height="50%">
+ <img src="https://github.com/Odasoken/TraditionalChineseTextView/blob/main/TraditionalChineseTextViewDemo/demo.png" width="35%" height="35%">
