@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="fzxz.ttf">
+            <string>FZXZTFW--GB1-0</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TraditionalChineseTextViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDp-Mt-qQg" customClass="TraditionalChineseTextView" customModule="TraditionalChineseTextViewDemo" customModuleProvider="target">
+                                <rect key="frame" x="10" y="64" width="394" height="748"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="飞虎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6b-WL-zUh">
+                                <rect key="frame" x="157" y="812" width="100" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="24f-MB-rq9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FZXZTFW--GB1-0" family="FZXiaoZhuanTi-S13T" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="HDp-Mt-qQg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="JAi-BR-Qbl"/>
+                            <constraint firstItem="b6b-WL-zUh" firstAttribute="top" secondItem="HDp-Mt-qQg" secondAttribute="bottom" id="NKo-YQ-3to"/>
+                            <constraint firstItem="b6b-WL-zUh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QV6-rp-J4u"/>
+                            <constraint firstAttribute="bottom" secondItem="b6b-WL-zUh" secondAttribute="bottom" id="SD9-Xj-tXQ"/>
+                            <constraint firstItem="HDp-Mt-qQg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="isd-bI-4P6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HDp-Mt-qQg" secondAttribute="bottom" constant="50" id="jQ7-kN-PyE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HDp-Mt-qQg" secondAttribute="trailing" constant="10" id="zbb-6R-LjL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="HDp-Mt-qQg" id="uCe-Uy-8wx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="64.955357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
