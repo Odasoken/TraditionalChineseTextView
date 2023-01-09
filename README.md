@@ -10,5 +10,7 @@
   textView.font = UIFont.init(name: fontLibName, size: CGFloat(45))
   textView.backgroundColor = UIColor.init(red: 224 / 255.0, green: 171 / 255.0, blue: 93 / 255.0, alpha: 1.0)
  ```
-   <br>
+   
+   
+ <br>  
 ![image](https://github.com/Odasoken/TraditionalChineseTextView/blob/main/TraditionalChineseTextViewDemo/demo.png) 
