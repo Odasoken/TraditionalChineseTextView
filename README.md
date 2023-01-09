@@ -1,0 +1,2 @@
+# TraditionalChineseTextView
+自定义竖排中文显示控件
